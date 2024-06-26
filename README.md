@@ -23,15 +23,13 @@ This repository contains Python scripts for establishing a basic reverse shell c
 
 ### How to convert "RAT.py" to "RAT.exe"
 ##### 1. Install pyinstaller:
+
 <pre>
-```bash
 pip install pyinstaller
-```
 </pre>
 #####  2. Convert Python script to executable:
+
 <pre>
-```bash
 pyinstaller --noconsole --onefile file.py
-```
 </pre>
 
