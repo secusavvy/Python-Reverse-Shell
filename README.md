@@ -30,6 +30,6 @@ pip install pyinstaller
 #####  2. Convert Python script to executable:
 
 <pre>
-pyinstaller --noconsole --onefile file.py
+pyinstaller RAT.py --noconsole --onefile
 </pre>
 
