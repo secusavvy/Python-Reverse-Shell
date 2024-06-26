@@ -4,17 +4,17 @@
 This repository contains Python scripts for establishing a basic reverse shell communication between a server and a client. The `Server.py` script sets up a listener on a specified IP address and port, allowing clients to connect and execute commands remotely. The `RAT.py` script, also known as a Remote Access Trojan, connects to the server and awaits commands, executing them on the client machine and returning the results.
 
 ### Contents:
-- "Server.py": Python script for the server side of the reverse shell.
-- "RAT.py": Python script for the client side of the reverse shell.
+- `Server.py`: Python script for the server side of the reverse shell.
+- `RAT.py`: Python script for the client side of the reverse shell.
 
 ### Usage:
 #### Server Setup:
    - Edit `Server.py` to specify the desired IP address and port (`SERVER_IP` and `PORT` variables).
-   - Run `Server.py` on the machine that will act as the command listener: `python server.py`.
+   - Run `Server.py` on the machine that will act as the command listener: `python Server.py`.
 
 #### Client Setup:
    - Edit `RAT.py` to specify the server's IP address and port (`SERVER_IP` and `PORT` variables).
-   - Run `RAT.py` on the target machine to establish a connection to the server: `python client.py`.
+   - Run `RAT.py` on the target machine to establish a connection to the server: `python RAT.py`.
    - Once connected, the client will wait for commands from the server to execute remotely.
 
 #### Commands:
