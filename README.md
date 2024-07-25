@@ -33,3 +33,8 @@ pip install pyinstaller
 pyinstaller RAT.py --noconsole --onefile
 </pre>
 
+### Disclaimer!
+
+**The author of this script is not responsible for any misuse or damages caused by using this script. Use it at your own risk.**
+
+*Happy hacking responsibly!*
