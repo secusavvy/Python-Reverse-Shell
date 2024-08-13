@@ -1,6 +1,6 @@
 # Python-Reverse-Shell
 
-## Description
+## Description:
 This repository contains Python scripts for establishing a basic reverse shell communication between a server and a client. The `Server.py` script sets up a listener on a specified IP address and port, allowing clients to connect and execute commands remotely. The `RAT.py` script, also known as a Remote Access Trojan, connects to the server and awaits commands, executing them on the client machine and returning the results.
 
 ### Contents:
